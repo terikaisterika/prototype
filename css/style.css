@@ -1,0 +1,56 @@
+h1 {
+  text-align: center;
+}
+body {
+  font-size: 18px;
+}
+table, th, td {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 3px;
+  margin-top: 10px;
+  padding: 5px;
+}
+caption {
+  padding: 5px;
+}
+
+.holiday {
+  background-color: rgb(218, 99, 99);
+  
+}
+
+.event {
+  background-color: rgb(220, 155, 34)
+}
+.weekend {
+  background-color: rgb(132, 132, 217)
+}
+
+.work {
+  background-color: rgb(197, 194, 194)
+}
+/* .work_office::after{
+  content: " оф";
+} */
+.vacation {
+ background-color: rgb(192, 155, 230);
+}
+/* .vacation::after{
+  
+  content: " отп";
+} */
+#errors {
+  margin: 0px;
+  padding: 0px
+}
+
+#creatingSchedule {
+  border-radius: 3px;
+  padding: 5px;
+  
+}
+#creatingSchedule:active {
+  color: #f5f3f3;
+  background-color:#9e9b9b;
+}
